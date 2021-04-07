@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['email'])){
-    header("Location:../login.php");
+    header("Location:login.php");
 }
 error_reporting(0);
 require_once '../database/database.php';

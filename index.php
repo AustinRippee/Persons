@@ -1,8 +1,5 @@
 <?php
 session_start();
-if(!isset($_SESSION['email'])){
-    header("Location:login.php");
-}
 // include core and database files
 include_once 'config/core.php';
 include_once '../database/database.php';
